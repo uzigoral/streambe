@@ -1,0 +1,103 @@
+header{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 4%;
+    margin-top: 5%;
+}
+
+
+#pfp{
+    width: 17%;
+    border-radius: 50%;
+}
+
+#portfolio{
+    background-color: #E67E22;
+    text-align: center;
+    padding:4%;  
+}
+
+#portfolio img{
+    width: 65%;
+    border-radius: 5%;
+    margin-bottom: 3%
+    
+}
+
+.titulo_portfolio{
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;  
+}
+
+#about p{
+    display: block;
+    font-size: 125%;
+    text-align: center;
+    width: 30%;
+    justify-items: center;
+    margin:auto
+}
+
+.titulo_h2{
+    text-align: center;
+    margin-bottom: 2% ;
+}
+
+#about{
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.hr{
+    width: 45%; 
+    margin: auto; 
+    margin-bottom: 3%;
+}
+
+#contact{
+    background-color: #E67E22;
+    text-align:center;
+    padding:4%; 
+}
+
+form{
+    display: block;
+    text-align: left;
+    margin-left: 27%;
+}
+
+input{
+    width: 63%;
+    
+}
+
+textarea{
+    width: 63%;
+    height: 16%;
+    
+}
+
+footer{
+    background-color: #212529;
+    color: azure;
+    padding: 4%;
+    padding-bottom: 1%;
+}
+
+.container_footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+.copyright{
+    margin-top: 3%;
+    text-align: center;
+    
+}
